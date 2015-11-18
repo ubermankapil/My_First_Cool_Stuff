@@ -1,0 +1,31 @@
+import fresh_tomatoes
+import media
+toy_story = media.Movie("Toy Story",
+                        "A story of a boy and his toys that come to life",
+                        "https://en.wikipedia.org/wiki/Toy_Story#/media/File:Toy_Story.jpg",
+                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")  
+avatar = media.Movie("Avatar",
+                     "A marine on an alien planet",
+                     "https://en.wikipedia.org/wiki/Avatar_%282009_film%29#/media/ File:Avatar-Teaser- Poster.jpg",
+                     "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+ratatouille = media.Movie("Ratatouille",
+                          "A story of rat","https://en.wikipedia.org/wiki/Ratatouille_%28film%29#/media/File:RatatouillePoster.jpg",
+                          "https://www.youtube.com/watch?v=KQUpZqshj7M")
+school_of_rock = media.Movie("School of Rock","Ab de viller's childhood school",
+                             "https://en.wikipedia.org/wiki/School_of_Rock#/media/File:School_of_Rock_Poster.jpg",
+                             "https://www.youtube.com/watch?v=LqEszt5wG9I")
+midnight_in_paris = ("Midnight in Paris","A very beautiful city of Paris",
+                     "https://en.wikipedia.org/wiki/Midnight_in_Paris#/media/File:Midnight_in_Paris_Poster.jpg",
+                     "https://www.youtube.com/watch?v=FAfR8omt-CY")
+iron_man = ("Iron Man","A bleeding boy looking like an iron",
+            "https://en.wikipedia.org/wiki/Iron_Man#/media/File:Iron_Man_bleeding_edge.jpg","https://www.youtube.com/watch?v=8hYlB38asDY")
+
+movies = [toy_story, avatar, ratatouille, school_of_rock, midnight_in_paris, iron_man]
+fresh_tomatoes.open_movies_page(movies)
+
+#print(avatar.storyline)
+#avatar.show_trailer()
+
+
+                    
+
